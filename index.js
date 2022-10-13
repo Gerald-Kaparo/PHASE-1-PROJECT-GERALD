@@ -47,3 +47,59 @@ let volunteer = {
   };
   
   alert(volunteer);
+
+// import package
+import { Mpesa } from "mpesa-api";
+//OR
+const Mpesa = require("mpesa-api").Mpesa;
+
+// create a new instance of the api
+const mpesa = new Mpesa(credentials, environment);
+
+
+//example
+const credentials = {
+    clientKey: 'YOUR_CONSUMER_KEY_HERE',
+    clientSecret: 'YOUR_CONSUMER_SECRET_HERE',
+    initiatorPassword: 'YOUR_INITIATOR_PASSWORD_HERE',
+    securityCredential: 'YOUR_SECURITY_CREDENTIAL',
+    certificatePath: 'keys/example.cert'
+};
+// For the initiator_password, use the security credential from the test credentials page.link :https://developer.safaricom.co.ke/test_credentials
+
+// security credential is optional. Set this if you're getting Initiator Name is invalid errors. You can generate your security credential on the test credentials page for sandbox environment or from your mpesa web portal for production environment.
+
+// certificate path is otional. I've provided ceritificates for sandbox and production by default. If you choose not to include it Pass it as null. If you have passed `securityCredential` you should pass `certificatePath` as `null`
+const credentials = {
+    ...,
+    certificatePath: null
+};
+
+const environment = "sandbox";
+//or
+const environment = "production";
+
+mpesa
+  .b2b({
+    InitiatorName: "Initiator Name",
+    Amount: 1000 /* 1000 is an example amount */,
+    PartyA: "Party A",
+    PartyB: "Party B",
+    AccountReference: "Account Reference",
+    QueueTimeOutURL: "Queue Timeout URL",
+    ResultURL: "Result URL",
+    CommandID: "Command ID" /* OPTIONAL */,
+    SenderIdentifierType: 4 /* OPTIONAL */,
+    RecieverIdentifierType: 4 /* OPTIONAL */,
+    Remarks: "Remarks" /* OPTIONAL */,
+  })
+  .then((response) => {
+    //Do something with the response
+    //eg
+    console.log(response);
+  })
+  .catch((error) => {
+    //Do something with the error;
+    //eg
+    console.error(error);
+  });
