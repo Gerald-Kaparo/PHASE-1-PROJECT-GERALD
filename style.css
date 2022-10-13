@@ -1,7 +1,7 @@
 *{
     padding: 0.2rem;
     margin: 0.2rem;
-background-color: burlywood;    
+background-color: #fff;    
 }
 nav{
     text-decoration: wavy;
@@ -85,7 +85,7 @@ nav div header div ul li a{
     border: 2rem;
     border-radius: 3rem;
     text-decoration: none;
-    color: #fff;
+    color: #3d3d3d;
     font-weight: bold;
     font-style: italic;
 }
@@ -98,7 +98,8 @@ nav div header div ul li a:hover{
     border: 2rem;
     border-radius: 3rem;
     text-decoration: none;
-    color: black;
+    color: #fff;
+    background-color: green;
     transition: .7s ease-in-out;
     transform-style: flat;
 
@@ -148,10 +149,10 @@ div img{
 
 
 div p{
-    font-size: 21px;
+    font-size: 17px;
     font-family: 'Times New Roman', Times, serif;
     text-align: left; 
-    color: black
+    color: #3d3d3d;
 }
 
  div section {
