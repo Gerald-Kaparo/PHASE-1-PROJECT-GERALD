@@ -37,3 +37,13 @@ header.style.backgroundColor='light green';
 var iput= document.querySelector('input');
 input.value='contribution';
 
+let volunteer = {
+    name: "Melisa",
+    age: 22,
+  
+    toString() {
+      return `{name: "${this.name}", age: ${this.age}}`;
+    }
+  };
+  
+  alert(volunteer);
