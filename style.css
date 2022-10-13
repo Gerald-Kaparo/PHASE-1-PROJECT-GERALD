@@ -1,0 +1,214 @@
+*{
+    padding: 0.2rem;
+    margin: 0.2rem;
+background-color: burlywood;    
+}
+nav{
+    text-decoration: wavy;
+}
+
+section div {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+
+
+
+
+}
+
+nav div header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: darkgreen;
+    border-radius: 2.11rem;
+    align-self: start;
+}
+
+ nav div header img{
+    display: flex;
+    height: 4.11rem;
+    border-radius: 10rem;
+    flex-direction: row;
+    align-items: center;
+    width: 4.11rem;
+}
+
+nav div header h1{
+    display: flex;
+    height: 4.11rem;
+    flex-direction: row;
+    align-items: center;
+    border: 2rem;
+    border-radius: 3rem;
+    margin-left: 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+nav div header div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    border: 2rem;
+    border-radius: 3rem;
+    margin-left: 13rem;
+}
+
+
+nav div header div ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    border: 2rem;
+    border-radius: 3rem;
+    
+}
+
+nav div header div ul li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    border: 2rem;
+    border-radius: 3rem;
+}
+
+nav div header div ul li a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    border: 2rem;
+    border-radius: 3rem;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-style: italic;
+}
+
+nav div header div ul li a:hover{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    border: 2rem;
+    border-radius: 3rem;
+    text-decoration: none;
+    color: black;
+    transition: .7s ease-in-out;
+    transform-style: flat;
+
+}
+
+nav div header form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: darkgreen;
+    border-radius: 2.11rem;
+    padding-left: 1rem;
+    color: #fff;
+}
+
+
+nav div header form button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: darkgreen;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    color: #fff;
+}
+
+nav div header form input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: darkgreen;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    color: #fff;
+}
+
+div{
+    text-align: center;
+}
+div img{
+    height: 25rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: left;
+}
+
+
+div p{
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left; 
+    color: black
+}
+
+ div section {
+    font-size: 21px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    background-color: darkgreen;
+    margin-bottom: 0px;
+    border-radius: 1rem;
+}
+
+div section footer{
+    font-size: 25px;
+    background-color: darkgreen;
+    margin-left: 33rem;
+    padding-top: 4.11rem;
+    padding-bottom:  4.11rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+div section img{
+    padding-top: 4.11rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom:  4.11rem;
+    margin-bottom: 0px;
+    border-radius: 1rem;
+    background-color: black;
+}
+
+div section div{
+    background-color: #fff;
+    margin: 1rem;
+    margin-left: 4.5rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    
+}
+
+
+div section div img{
+    height: 10rem;
+    border-radius: 2rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: left;
+}
+
+div section div p{
+    height: 10rem;
+    width: 18rem;
+    border-radius: 2rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: left;
+}
