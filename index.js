@@ -70,16 +70,16 @@ const credentials = {
 // security credential is optional. Set this if you're getting Initiator Name is invalid errors. You can generate your security credential on the test credentials page for sandbox environment or from your mpesa web portal for production environment.
 
 // certificate path is otional. I've provided ceritificates for sandbox and production by default. If you choose not to include it Pass it as null. If you have passed `securityCredential` you should pass `certificatePath` as `null`
-const credentials = {
-    ...,
-    certificatePath: null
-};
+// const credentials = {
+//     ...,
+//     certificatePath: null
+// };
 
-const environment = "sandbox";
-//or
-const environment = "production";
+// const environment = "sandbox";
+// //or
+// const environment = "production";
 
-mpesa
+// mpesa
   .b2b({
     InitiatorName: "Initiator Name",
     Amount: 1000 /* 1000 is an example amount */,
@@ -103,3 +103,24 @@ mpesa
     //eg
     console.error(error);
   });
+
+  document.addListenerEvent("DOMContentLoaded", function(){
+    const button = document.getElementById("it")
+    button.addListenerEvent('click', function(){
+      console.log("I can try it actually!");
+    })
+  });
+
+  function contribute () {
+    if (document.getElementById("contribute").value == "") {
+      priceComp = 100;
+    } else if (document.getElementById("comp").value == "tileadh") {
+      priceComp = 650;
+    } else if (document.getElementById("comp").value == "Cornerstrips") {
+      priceComp = 100;
+    }  else {
+      priceComp= 200;
+    }
+    return priceComp;
+  }
+  

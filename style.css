@@ -213,3 +213,17 @@ div section div p{
     display: flex;
     flex-direction: left;
 }
+
+.ss1{
+    border-radius: 1rem;
+    height: 3rem;
+    background-color: #fff;
+    color: darkgreen;
+    font-weight: bold;
+    margin: 1rem;
+}
+.ss1:hover{
+    background-color: green;
+    color: #fff;
+    transition: .4s ease-in;
+}
