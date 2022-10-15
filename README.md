@@ -18,7 +18,7 @@ Am a statistician by profession. Am currently learning to be a full stack develo
 
  The objectives of this policy document are to promote sustainable exploitation of forest resources for based on environmental protection and preservation and for the benefits of current and future generations of Kenyans. They also include respecting socio-cultural values and ensuring access to justice, gender equity, and inclusiveness. Finally, they aim to sustainably conserve water catchments areas by facilitating huma migration.
  <!-- - link to live site on GitHub Pages - -->
- 
+ https://gerald-kaparo.github.io/PHASE-1-PROJECT-GERALD/
  
  <!-- copyright and license information -->
 
