@@ -227,3 +227,9 @@ div section div p{
     color: #fff;
     transition: .4s ease-in;
 }
+
+section div img{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
