@@ -117,7 +117,7 @@ const credentials = {
     } else if (document.getElementById("nme").value == "MANPOWER") {
       contribution = 499;
     } else if (document.getElementById("nme").value == "ADVICE") {
-      priceComp = 230;
+      contribution = 230;
     }  else {
       contribution= 199;
     }
