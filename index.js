@@ -80,7 +80,7 @@ const credentials = {
 // const environment = "production";
 
 // mpesa
-  .b2b({
+  b2b({
     InitiatorName: "Initiator Name",
     Amount: 1000 /* 1000 is an example amount */,
     PartyA: "Party A",
