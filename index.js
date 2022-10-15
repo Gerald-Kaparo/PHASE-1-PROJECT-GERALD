@@ -112,15 +112,17 @@ const credentials = {
   });
 
   function contribute () {
-    if (document.getElementById("contribute").value == "") {
-      priceComp = 100;
-    } else if (document.getElementById("comp").value == "tileadh") {
-      priceComp = 650;
-    } else if (document.getElementById("comp").value == "Cornerstrips") {
-      priceComp = 100;
+    if (document.getElementById("nme").value == "first nm") {
+      onsubmit="document.getElementById('nme').innerHTML = alert('We need to do more research on forest restoration. is that ok?')";
+    } else if (document.getElementById("nme").value == "MANPOWER") {
+      contribution = 499;
+    } else if (document.getElementById("nme").value == "ADVICE") {
+      priceComp = 230;
     }  else {
-      priceComp= 200;
+      contribution= 199;
     }
-    return priceComp;
+    return contribution;
   }
+
+  document.getElementById("myForm").action = "/action_page.php";
   

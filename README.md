@@ -23,7 +23,7 @@ SOFTWARE.
 
 
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -654,4 +654,4 @@ const credentials = {
     "express": "^4.18.2",
     "prettyjson": "^1.2.5"
   }
-}
+} -->
