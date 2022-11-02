@@ -1,0 +1,382 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap'); */
+
+
+/* clip path */
+
+
+*{
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+body {
+    /* background-image: url(./images/A\ man\ with\ computer\ on\ a\ white\ surface6.jpg); */
+    /* background-image: url(./images/darkforest.avif); */
+    /* background-image: url(./images/for\ expertise.jpg); */
+    background-image: url(./images/for\ expertise.jpg);
+    background-color: #333;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    opacity: 2;
+  }
+
+html{
+    overflow-x: hidden;
+    scroll-padding-top: 5.33rem;
+    scroll-behavior: smooth;
+}
+
+/*  */
+
+.top-of-header{
+    padding-top: 10rem;
+    text-align: center;
+    overflow-x: hidden;
+   
+}
+
+.top-of-header h3{
+    background-image: url(./images/webhost4.png);
+    height: 14rem;
+    width: 14rem;
+    color:var(--black);
+    font-size: 3.7vw;
+    align-items: center;
+    margin-left: 32.7rem;
+    margin-top: -10rem;
+    padding-top: 13rem;
+    margin-bottom: 10rem;
+    border-radius: 10rem;
+    /* margin-bottom: -1rem; */
+    text-transform: uppercase;
+}
+
+
+
+/* media sizes */
+
+
+@media screen and (max-width:1300px) {
+    body{
+        width:100%;
+        margin: 2px 1px 2px;
+        margin-right: 2px;
+        max-width: auto;
+        overflow: hidden;
+        background-color: white;
+    }
+    html{
+        overflow-x: hidden;
+    }
+    div.next-top-of-header{
+        margin: 2px 2px 2px;
+
+    }
+    div.next-top-of-header div.photoViews{
+        margin: 2px 2px 2px;
+        padding-right: 3rem;
+    }
+    section.top-of-header{
+        margin: 1px 1px 1px;
+        overflow-y: hidden;
+        margin-top: -19rem;
+        padding-bottom: 2rem;
+
+    }
+    section.top-of-header h3{
+        margin: -100px 60px 1px;
+        font-size: 40px;
+        width: auto;
+        height: auto;
+        background-image: none;
+    
+    }
+    div.kolm{
+        display: none;
+    }
+    button#les{
+        margin-left: -11rem;
+        margin-top: 6rem;
+    }
+    section#classid img{
+        width: auto;
+        height: auto;
+        /* max-width: 40rem; */
+        /* max-height: 33rem; */
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    div#allData{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    div#allData section#classid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    div#killer{
+        display: flex;
+        flex-direction: column;
+
+    }
+    div#killer h2.home button.chooe{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 2rem;
+
+    }
+    section#more-data{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+
+    }
+    section#more-data div{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+        /* background-color: #ddd; */
+        padding-bottom: 15rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    section#more-data div:hover{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+        /* background-color: white; */
+        padding-bottom: 15rem;
+        
+        
+
+    }
+    section#ooter{
+        display: flex;
+        flex-direction: column;
+        background-image: none;
+    }
+    section#ooter footer#le{
+        margin-left: 0rem;
+    }
+
+
+    div.next-top-of-header{
+        margin: auto;
+    }
+
+
+
+
+
+   /* Style the navbar menu */
+.phonesMenu {
+    overflow: hidden;
+    background-color:#ddd;
+    position: relative;
+    padding-bottom: 1rem;
+    
+  }
+
+  
+  /* Hide the links inside the navigation menu (including the home icon) */
+  .phonesMenu #linkPhoneDirection {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .phonesMenu a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the phone menu */
+  .phonesMenu a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .phonesMenu a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the direction link (or home/logo) */
+  .direction{
+    background-color: #ddd;
+    color:#333;
+  }
+  video{
+    display:none;
+}
+section#ooter{
+    align-items: center;
+    /* padding-bottom: 5rem; */
+}
+div#real iframe#myLoc{
+    /* width: auto; */
+    position: relative;
+    /* overflow: hidden; */
+      /* padding-top: 57.25%;/57.25/ 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    /* position: absolute; */
+  width: 100%;
+  height: 100%;
+}
+section div#real img{
+    width: auto;
+    min-width: 3rem;
+    /* height: auto; */
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    overflow: hidden;
+    max-width: 10rem;
+    max-height: 10rem;
+}
+
+
+
+}
+    
+
+
+
+
+
+
+
+
+
+
+/* @media (max-width:1300px) {
+    body{
+        width:100%;
+        margin: 2px 1px 2px;
+        margin-right: 2px;
+        max-width: auto;
+        overflow: hidden;
+        margin-left: 4rem;
+        padding-right: 8rem;
+    }
+    div.next-top-of-header{
+        margin: 2px 2px 2px;
+
+    }
+    div.next-top-of-header div.photoViews{
+        margin: 2px 2px 2px;
+        padding-right: 3rem;
+    }
+    section.top-of-header{
+        margin: 1px 1px 1px;
+
+    }
+    section.top-of-header h3{
+        margin: -100px 250px 1px;
+        font-size: 40px;
+
+    }
+    /* header#taticNavBar{
+        position: absolute;
+        top:99%; left:0; right:0;
+        background: #fff;
+        border-top: var(--border);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+    } 
+    header#taticNavBar{
+        position: absolute;
+        top:99%; left:0; right:0;
+        background: #fff;
+        border-top: var(--border);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+    }
+    div#allData{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    div#allData section#classid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    div#killer{
+        display: flex;
+        flex-direction: column;
+
+    }
+    div#killer h2.home button.chooe{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 2rem;
+
+    }
+    section#more-data{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+
+    }
+    section#more-data div{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+
+
+    }
+    section#ooter{
+        display: flex;        background-color: rgb(171, 253, 116);
+        flex-direction: column;
+    }
+    section#ooter footer#le{
+        margin-left: 0rem;
+    }
+     
+
+}
+ */
+
+
+
+
+ /* @media (max-width:300px){
+
+    html{
+        font-size: 71%;
+    }
+
+    .header~.cover{
+        padding:1.3rem;
+    }
+
+    .header.d{
+        padding:2rem;
+    }
+
+    section{
+        padding:2rem;
+    }
+
+} */
