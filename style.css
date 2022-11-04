@@ -14,7 +14,6 @@ nav.bar{
 
 }
 
-
 /* Hide the images by default */
 .photoViews {
   display: none;
@@ -98,11 +97,6 @@ nav.bar{
   from {opacity: .4}
   to {opacity: 1}
 }
-
-
-
-
-
 
 /* Style the header */
 .header {
@@ -435,9 +429,6 @@ p#typeHelper{
 
 }
 
-
-
-
 /* trying to positioning the time button */
 button#les{
     margin-left: -48rem;
@@ -501,5 +492,4 @@ div.ssh{
 
 .corl{
         text-align: center;
-
 }
