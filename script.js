@@ -1,5 +1,3 @@
-// RESEARCH 1
-
 let picNum = 1;
 PictureDrivers(picNum);
 
@@ -36,7 +34,7 @@ function PictureDrivers(n) {
 
 
 
-// AUTOMATIC SLIDESSHOW
+// AUTOMATIC SLIDESSHOW WILL DISPLAY
 // let picNum = 0;
 PictureDrivers();
 
@@ -58,7 +56,7 @@ function PictureDrivers() {
 
 
 
-// typewriter
+//my typewriter
 var s = 0;
 var par = 'This project aims at innitiating increase in forest cover at Kajiado County to aid in climate change; to encourage sustainable exploitation of forestland for focusing on environmental conservation and protection and for the benefit of present and future generations of Kenyans; to respect socio-cultural values and to ensure access to justice, gender equity, and inclusiveness; to sustainably conserve irrigation catchments areas by facilitating human institutional capacity'; /* The text */
 var speed = 77; /* The speed/duration of the effect in milliseconds */
@@ -73,10 +71,10 @@ function typeWriter() {
 
 
 
-// When the user scrolls the page, execute onscrollStaticNavbar
+// at the time the user scrolls the page, execute onscrollStaticNavbar
 window.onscroll = function() {onscrollStaticNavbar()};
 
-// Get the header
+// Get the header by id
 var header = document.getElementById("taticNavBar");
 
 // Get the offset position of the navbar
@@ -92,7 +90,7 @@ function onscrollStaticNavbar() {
 }
 
 
-// PARALLAX HEADER
+//MY PARALLAX HEADER
 document.querySelector('.top-of-header').onmousemove = (e) =>{
 
   document.querySelectorAll('.prllx_effect').forEach(elm =>{
@@ -135,7 +133,7 @@ function phoneDirection() {
 
 
 
-// MULTIPLE SLIDES
+// MORE THAN 3 OR MULTIPLE SLIDESHOW
 // let picNum = [1,1];
 // /* Class the members of each slideshow group with different CSS classes */
 // let slideId = ["mySlides1", "mySlides2"]
